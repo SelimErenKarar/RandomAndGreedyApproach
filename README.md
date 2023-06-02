@@ -1,0 +1,2 @@
+# RandomAndGreedyApproach
+Greedy approach game

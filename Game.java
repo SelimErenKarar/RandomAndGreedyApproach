@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Selim_Eren_Karar_2019510050 {
+public class Game {
 
 	static int gold_amount = 0;
 	static int max_level_allowed = 0;
@@ -26,10 +26,6 @@ public class Selim_Eren_Karar_2019510050 {
 		System.out.println("\n---------o---------");
 		System.out.println("\n-Random Approach-");
 		print(selectedPiecesForRandom, totalTimeRandom);
-	}
-
-	static void DP(String[][] allPieces) {
-		ArrayList<ArmyCombination> armyCombinations = new ArrayList<ArmyCombination>();
 	}
 
 	static String[][] greedyApproach(String[][] allPieces, int temp_gold_amount) throws Exception { // It chooses the one with the highest "attack point / gold" ratio.
